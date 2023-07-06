@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScoreKeeping</string>
+    <string name="team_1">Team 1</string>
+    <string name="_0">0</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="team_2">Team 2</string>
+    <string name="_3">0</string>
+    <string name="increaseTeam2">Increase</string>
+    <string name="decreaseTeam2">Decrease</string>
+</resources>
