@@ -8,4 +8,7 @@
     <string name="_3">0</string>
     <string name="increaseTeam2">Increase</string>
     <string name="decreaseTeam2">Decrease</string>
+    <string name="option_1">1x</string>
+    <string name="option_2">2x</string>
+    <string name="option_3">3x</string>
 </resources>

@@ -1,8 +1,6 @@
 package com.example.scorekeeping
 
 import androidx.appcompat.app.AppCompatActivity
-
-
 import android.os.Bundle
 import com.example.scorekeeping.databinding.ActivityMainBinding
 
@@ -33,6 +31,18 @@ class MainActivity : AppCompatActivity() {
         binding.team2DecreaseButton.setOnClickListener {
             team2Score -= scoreChange
             binding.team2ScoreTextView.text = team2Score.toString()
+        }
+
+        binding.scoreOption1RadioButton.setOnClickListener {
+            scoreChange = 1
+        }
+
+        binding.scoreOption2RadioButton.setOnClickListener {
+            scoreChange = 2
+        }
+
+        binding.scoreOption3RadioButton.setOnClickListener {
+            scoreChange = 3
         }
     }
 }
