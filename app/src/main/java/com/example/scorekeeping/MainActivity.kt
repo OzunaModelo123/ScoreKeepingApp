@@ -24,5 +24,15 @@ class MainActivity : AppCompatActivity() {
             team1Score -= scoreChange
             binding.team1ScoreTextView.text = team1Score.toString()
         }
+
+        binding.team2IncreaseButton.setOnClickListener {
+            team2Score += scoreChange
+            binding.team2ScoreTextView.text = team2Score.toString()
+        }
+
+        binding.team2DecreaseButton.setOnClickListener {
+            team2Score -= scoreChange
+            binding.team2ScoreTextView.text = team2Score.toString()
+        }
     }
 }
