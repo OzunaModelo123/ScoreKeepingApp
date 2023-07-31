@@ -6,10 +6,12 @@
 
     <TextView
         android:id="@+id/team1TextView"
+        android:textColor="@color/scoreColor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/team_1"
         android:textSize="24sp"
+        android:textAppearance="@style/AppTextAppearance"
         android:gravity="center_horizontal" />
 
     <TextView
@@ -18,10 +20,13 @@
         android:layout_height="wrap_content"
         android:text="@string/_0"
         android:textSize="48sp"
+        android:textAppearance="@style/AppTextAppearance"
+        android:textColor="@color/scoreColor"
         android:gravity="center_horizontal" />
 
     <Button
         android:id="@+id/team1IncreaseButton"
+        style="@style/AppButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/increase"
@@ -29,6 +34,7 @@
 
     <Button
         android:id="@+id/team1DecreaseButton"
+        style="@style/AppButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/decrease"
@@ -36,6 +42,8 @@
 
     <TextView
         android:id="@+id/team2TextView"
+        android:textColor="@color/scoreColor"
+        style="@style/AppButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/team_2"
@@ -44,6 +52,8 @@
 
     <TextView
         android:id="@+id/team2ScoreTextView"
+        style="@style/AppButtonStyle"
+        android:textColor="@color/scoreColor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_3"
@@ -52,6 +62,7 @@
 
     <Button
         android:id="@+id/team2IncreaseButton"
+        style="@style/AppButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/increaseTeam2"
@@ -59,6 +70,7 @@
 
     <Button
         android:id="@+id/team2DecreaseButton"
+        style="@style/AppButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/decreaseTeam2"
@@ -67,6 +79,7 @@
 
     <RadioGroup
         android:id="@+id/scoreChangeRadioGroup"
+        style="@style/AppButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -74,18 +87,24 @@
 
         <RadioButton
             android:id="@+id/scoreOption1RadioButton"
+            android:textColor="@color/scoreColor"
+            style="@style/AppButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/option_1" />
 
         <RadioButton
             android:id="@+id/scoreOption2RadioButton"
+            android:textColor="@color/scoreColor"
+            style="@style/AppButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/option_2" />
 
         <RadioButton
             android:id="@+id/scoreOption3RadioButton"
+            style="@style/AppButtonStyle"
+            android:textColor="@color/scoreColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/option_3" />
